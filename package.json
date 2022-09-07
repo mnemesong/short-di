@@ -1,8 +1,8 @@
 {
-  "name": "fast-di",
+  "name": "short-di",
   "version": "0.0.1",
   "description": "Fast di loading from config",
-  "main": "/js/fastDi.js",
+  "main": "js/fastDi.js",
   "scripts": {
     "test": "mocha test-unit/**/*.test.js",
     "tsc": "tsc"
