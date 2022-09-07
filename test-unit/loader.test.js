@@ -1,5 +1,5 @@
 const path = require('path');
-const loader = require(path.resolve(__dirname, '../js/fastDi'));
+const loader = require(path.resolve(__dirname, '../js/shortDi'));
 const assert = require('assert');
 
 it('test register', () => {

@@ -2,14 +2,14 @@
   "name": "short-di",
   "version": "0.0.1",
   "description": "Fast di loading from config",
-  "main": "js/fastDi.js",
+  "main": "js/shortDi.js",
   "scripts": {
     "test": "mocha test-unit/**/*.test.js",
     "tsc": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mnemesong/fast-di.git"
+    "url": "git+https://github.com/mnemesong/short-di.git"
   },
   "keywords": [
     "di",
@@ -22,9 +22,9 @@
   "author": "Anatoly Starodubtsev <Pantagruel74>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mnemesong/fast-di/issues"
+    "url": "https://github.com/mnemesong/short-di/issues"
   },
-  "homepage": "https://github.com/mnemesong/fast-di#readme",
+  "homepage": "https://github.com/mnemesong/short-di#readme",
   "dependencies": {
     "@types/node": "^18.7.15",
     "mocha": "^10.0.0",

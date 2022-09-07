@@ -40,7 +40,7 @@ export function register(): void
     if(!global.fastDi) {
         let modParFn = module.parent.filename;
         console.log('loading: ' + modParFn);
-        let fastDiConfigFilePath = modParFn.slice(0, -1 * path.extname(modParFn).length) + '.fastdi.json';
+        let fastDiConfigFilePath = modParFn.slice(0, -1 * path.extname(modParFn).length) + '.shortdi.json';
         let configData = fs.readFileSync(fastDiConfigFilePath, 'utf-8');
         let configJson = JSON.parse(configData);
 

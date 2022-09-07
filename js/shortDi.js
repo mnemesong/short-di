@@ -31,7 +31,7 @@ function register() {
     if (!global.fastDi) {
         var modParFn = module.parent.filename;
         console.log('loading: ' + modParFn);
-        var fastDiConfigFilePath = modParFn.slice(0, -1 * path.extname(modParFn).length) + '.fastdi.json';
+        var fastDiConfigFilePath = modParFn.slice(0, -1 * path.extname(modParFn).length) + '.shortdi.json';
         var configData = fs.readFileSync(fastDiConfigFilePath, 'utf-8');
         var configJson = JSON.parse(configData);
         for (var key in configJson) {
