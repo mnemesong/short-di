@@ -1,0 +1,32 @@
+{
+  "name": "fast-di",
+  "version": "0.0.1",
+  "description": "Fast di loading from config",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test-unit",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnemesong/fast-di.git"
+  },
+  "keywords": [
+    "di",
+    "container",
+    "fast",
+    "dependency",
+    "invertion",
+    "injection"
+  ],
+  "author": "Anatoly Starodubtsev <Pantagruel74>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnemesong/fast-di/issues"
+  },
+  "homepage": "https://github.com/mnemesong/fast-di#readme",
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "typescript": "^4.8.2"
+  }
+}
