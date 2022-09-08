@@ -1,7 +1,7 @@
 {
   "name": "short-di",
-  "version": "0.0.1",
-  "description": "Fast di loading from config",
+  "version": "0.0.2",
+  "description": "Short di loading from config",
   "main": "js/shortDi.js",
   "scripts": {
     "test": "mocha test-unit/**/*.test.js",
