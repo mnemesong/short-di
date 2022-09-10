@@ -2,7 +2,7 @@
   "name": "short-di",
   "version": "0.0.2",
   "description": "Short di loading from config",
-  "main": "js/shortDi.js",
+  "main": "js/short-di.js",
   "scripts": {
     "test": "mocha test-unit/**/*.test.js",
     "tsc": "tsc"
