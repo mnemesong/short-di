@@ -1,0 +1,4 @@
+{
+    "load1": "./cat1/inc/load",
+    "load2": "./cat2/inc/load"
+}
