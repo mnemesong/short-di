@@ -1,6 +1,6 @@
 {
   "name": "short-di",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Short di loading from config",
   "main": "js/short-di.js",
   "scripts": {
