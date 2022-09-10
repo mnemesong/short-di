@@ -56,7 +56,9 @@ const cityParser = require("some-path-to-cities-parser-module");
 # Notes
 1. json short-di config file should be near main running script, and should contains resolvings for all "loads" in programm (includes required scripts).
 2. json short-di config file should be names like "<main-script-name-without-ext>.shortdi.json".
-3. when loading, program will run from passed module by parents, checks existance of "<moduleName>.shortdi.json"-like di-config-files, and uses the most-close-to-main-script di-config-file.
+3. The realization and mechanics had been full reworked from v0.2, and became race-condition-safety. Now may be used in asynchronous functions and asynchronous-uses-frameworks like "mocha".
+4. To avoid repetition of module identifiers, try to use as detailed module identifiers as possible.
+5. When loading, program will run from passed module by parents, checks existance of "<moduleName>.shortdi.json"-like di-config-files, and uses the most-close-to-main-script di-config-file.
 ### For example:
 if module-parents cache looks like:
 ```
@@ -65,8 +67,6 @@ if module-parents cache looks like:
 + script-where-used-shortdi-load (has not .shortdi.json file)
 ```
 then will be used config of main-script, case it most close to main script.
-4. The realization and mechanics had been full reworked from v0.2, and became race-condition-safety. Now may be used in asynchronous functions and asynchronous-uses-frameworks like "mocha".
-5. To avoid repetition of module identifiers, try to use as detailed module identifiers as possible.
 
 # Advanced example
 ```
